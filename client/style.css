@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+
+.message-view{
+	min-height: 300px!important;
+	max-height: 420px!important;
+	overflow-y: auto;
+	padding-right: 27px;
+	padding-left: 27px;
+	border: 1px solid #EEEEEE;
+	border-radius: 4px;
+}
+
+.message-view > .row > .message{
+	background-color: #E91E63;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 7px;
+	border: none;
+	max-width: 75%!important;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 6px;
+}
+
+.message-view > .row > .user{
+	float: right;
+	background-color: #1E88E5;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 10px;
+}
+
+.username{
+	color: #9E9E9E!important;	
+}
+
+.row{
+	padding-top: 4px!important;
+	padding-bottom: 4px!important;
+}

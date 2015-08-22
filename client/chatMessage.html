@@ -1,0 +1,16 @@
+<template name="chatMessage">
+	{{#if user_message}}
+	<div class="row">
+		<span class="username">{{username}}</span><br>
+		<div class="list-group-item message">
+    		{{content}}
+    	</div>
+	</div>
+	{{else}}
+	<div class="row">
+		<div class="list-group-item message user">
+    		{{content}}
+    	</div>
+	</div>
+	{{/if}}
+</template>
